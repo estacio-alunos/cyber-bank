@@ -73,13 +73,15 @@ seção _em construção_
 
 Versão não finalizada do diagrama de caso de uso para usuários:
 
-<img src="./docs/0.0.1-useCase.png">
+![0.0.1-useCase.png](docs/0.0.1-useCase.png)
 
 seção _em construção_
 
 ## referências
 
-- <https://pip.pypa.io/en/stable/installation/>
-- <https://www.geeksforgeeks.org/how-to-install-pip-in-macos/>
-- <https://fastapi.tiangolo.com/pt/#crie>
-- <https://github.com/pypa/pipenv/blob/main/docs/workflows.md>
+- <https://pip.pypa.io/en/stable/installation/> (EN)
+- <https://www.geeksforgeeks.org/how-to-install-pip-in-macos/> (EN)
+- <https://fastapi.tiangolo.com/pt/#crie> (PT)
+- <https://github.com/pypa/pipenv/blob/main/docs/workflows.md> (EN)
+- <https://jtemporal.com/requirements-txt/> (PT)
+- <https://medium.com/@hudsonbrendon/gerenciando-suas-depend%C3%AAncias-e-ambientes-python-com-pipenv-9e5413513fa6> (PT)
