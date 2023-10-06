@@ -1,2 +1,4 @@
 .idea
 .vscode
+# use o comando `pipenv requirements pra gerar o arquivo de dependências`
+requirements.txt
