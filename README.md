@@ -6,9 +6,11 @@ por gentileza _inserir descrição bacana aqui_
 
 tem que ter python instalado e algumas bibliotecas auxiliares
 
-- python 3.11
+- python 3.11 ou mais recente
 - pipenv
 - pip
+
+use o `pip` para instalar o `pipenv`
 
 tenha um editor de códigos, o de sua preferência
 
@@ -34,6 +36,17 @@ pipenv run dev
 
 visite a url em <http://127.0.0.1:8000>
 
+seção _em construção_
+
 ## testando
 
-este documento está em **construção**.
+seção _em construção_
+
+## publicando
+
+seção _em construção_
+
+## referências
+
+- <https://fastapi.tiangolo.com/pt/#crie>
+- <https://github.com/pypa/pipenv/blob/main/docs/workflows.md>
