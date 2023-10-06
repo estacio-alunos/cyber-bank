@@ -40,6 +40,14 @@ seção _em construção_
 
 ## testando
 
+Versão não finalizada do diagrama de caso de uso para usuários:
+
+<img src="./docs/0.0.1-useCase.png">
+
+seção _em construção_
+
+## testando
+
 seção _em construção_
 
 ## publicando
