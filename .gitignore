@@ -2,3 +2,7 @@
 .vscode
 # use o comando `pipenv requirements pra gerar o arquivo de dependências`
 requirements.txt
+
+# arquivos binários compildos do python
+__pycache__
+*.pyc
