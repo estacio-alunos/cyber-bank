@@ -1,11 +1,5 @@
-from django.shortcuts import render
+from django.http import JsonResponse
 
 
 def hello(request):
-    return render(
-        request,
-        'setup/index.html',
-        {
-            'context': 'Hello World!'
-        }
-    )
+    return JsonResponse({'message': 'hello world!'}, status=200)

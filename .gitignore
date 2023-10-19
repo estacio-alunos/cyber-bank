@@ -1,6 +1,3 @@
-# use o comando `pipenv requirements pra gerar o arquivo de dependências`
-requirements.txt
-
 # Django #
 *.log
 *.pot
