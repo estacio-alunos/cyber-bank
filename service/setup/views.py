@@ -4,13 +4,13 @@ from django.views.decorators.http import require_GET, require_POST, require_http
 
 @require_POST
 def post(request) -> JsonResponse:
-    return JsonResponse(data={'message': 'POST'}, status=200)
+    return JsonResponse(data={'message': 'POST'}, status=201)
 
 
 @require_GET
 def get(request) -> JsonResponse:
     data = {'message': 'GET'}
-    return JsonResponse(data=data, status=201)
+    return JsonResponse(data=data, status=200)
 
 
 @require_http_methods(['GET', 'POST'])
