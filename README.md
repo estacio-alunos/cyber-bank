@@ -1,73 +1,29 @@
 # cyber-bank
 
-por gentileza _inserir descrição bacana aqui_
+Sistema _fintech_ feito de forma colaborativa pelos alunos da Estácio para fins
+de aprendizado e experiência em como elaborar um produto e executar um projeto.
 
-## requisitos
+## Visão geral
 
-tem que ter python instalado e algumas bibliotecas auxiliares
+O Cyber Bank tem por objetivo <completar, mandem pull requests!>
 
-- python 3.11 ou mais recente
-- pipenv
-- pip
+Este repositório único abrigará todos os projetos concebidos para a
+viabilização do produto.
 
-use o `pip` para instalar o `pipenv`:
+## Módulos/Projetos
 
-```bash
-pip install pipenv
-```
+Os módulos previstos, até o momento, são a camada de serviço e a aplicação web.
+Para detalhes de cada projeto conferir os documentos README.md de cada um.
 
-tenha um editor de códigos, o de sua preferência
+## Roadmap/Roteiro
 
-- vscode
-- intellij ultimate
-- pycharm
-
-seção _em construção_
-
-## configurando
-
-execute o comando abaixo no terminal
-
-```bash
-pipenv install --dev
-```
-
-ou use o pipenv apenas para gerar o
-[requirements.txt](https://pip.pypa.io/en/stable/reference/requirements-file-format/):
-
-```bash
-pipenv requirements > requirements.txt 
-```
-
-e então instalar as dependências diretamente:
-
-```bash
-pip install -r requirements.txt
-```
-
-## executando
-
-```bash
-pipenv run dev
-```
-
-ou (caso instalado via requirements):
-
-```bash
-uvicorn app.main:app --reload
-```
-
-visite a url em <http://127.0.0.1:8000>
-
-seção _em construção_
-
-## testando
-
-seção _em construção_
-
-## publicando
-
-seção _em construção_
+- [ ] primeira entrega do time de requisitos
+- [ ] criação dos primeiros endpoints de API
+- [ ] primeiras telas para consumir estes endpoints
+- [ ] publicação em alguma nuvem do ambiente de desenvolvimento
+- [ ] elaboração do backlog de produto
+- [ ] criação da infra de integração contínua / entrega contínua (CI/CD)
+- [ ] montagem de sprints
 
 ## docs
 
@@ -76,12 +32,3 @@ Versão não finalizada do diagrama de caso de uso para usuários:
 ![0.0.1-useCase.png](docs/0.0.1-useCase.png)
 
 seção _em construção_
-
-## referências
-
-- <https://pip.pypa.io/en/stable/installation/> (EN)
-- <https://www.geeksforgeeks.org/how-to-install-pip-in-macos/> (EN)
-- <https://fastapi.tiangolo.com/pt/#crie> (PT)
-- <https://github.com/pypa/pipenv/blob/main/docs/workflows.md> (EN)
-- <https://jtemporal.com/requirements-txt/> (PT)
-- <https://medium.com/@hudsonbrendon/gerenciando-suas-depend%C3%AAncias-e-ambientes-python-com-pipenv-9e5413513fa6> (PT)
