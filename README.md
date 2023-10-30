@@ -13,12 +13,13 @@ Este repositório único abrigará todos os projetos concebidos para a viabiliza
 
 Um monolito, organizado nesse único repositório:
 
-- web/ (front-end)
-  - cyberbank (react)
-- service/ (back-end)
-  - cyberbank (django)
-- docs/ (documentação)
-  - regras de negócio, voltada aos alunos.
+* web/
+  * cyberbank/ (React)
+* service/
+  * cyberbank/ (Django)
+* tests/
+* docs/
+  * regras de negócio, voltada aos alunos.
 
 ## 📋 Pré-requisitos
 
@@ -30,20 +31,28 @@ Um monolito, organizado nesse único repositório:
 
 ### Back-end
 
+Pode ser usado o arquivo 'requirements.txt', dentro do diretório 'service', executando no diretório:
+
+```bash
+  > pip install -r requirements.txt
 ```
-...
+
+Ou, de forma manual:
+
+```bash
+  >
 ```
 
 ### Front-end
 
-```
-...
+```bash
+  >
 ```
 
 ## ⚙️ Executando testes
 
-```
-...
+```bash
+  > pytest
 ```
 
 ## 📦 Implantação
@@ -65,37 +74,41 @@ Dado um número de versão, de acordo com [semver](https://semver.org/lang/pt-BR
 
 ## ✒️ Autores
 
-**REQUISITOS**
+### Donos
 
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/15455090?v=4" width=115><br><sub>Juan Souza</sub>](https://github.com/kyobeta/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/109621297?v=4" width=115><br><sub>Juan Novais</sub>](https://github.com/jnovais1) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) |
-| :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123035444?v=4" width=115><br><sub>Lucas Figueiredo</sub>](https://github.com/LucasFigueiredoDEV) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/107313013?v=4" width=115><br><sub>Rafael Blauwer</sub>](https://github.com/Blauwer) |
+| --- | --- |
 
-**GESTÃO DO PROJETO**
+### Requisitos
 
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/109621297?v=4" width=115><br><sub>Juan Novais</sub>](https://github.com/jnovais1) |
-| :---: | :---: | 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/26445736?v=4" width=115><br><sub>Berg</sub>](https://github.com/wlidemberg) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/109621297?v=4" width=115><br><sub>Juan Novais</sub>](https://github.com/jnovais1) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) |
+| --- | --- | --- |
 
-**UX/UI**
+### Gestão do projeto
 
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) |
-| :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/147644295?v=4" width=115><br><sub>Naiara Cristi</sub>](https://github.com/Naiaracristi) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146794611?v=4" width=115><br><sub>Leidilena Leal</sub>](https://github.com/LEIDILENA) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/109621297?v=4" width=115><br><sub>Juan Novais</sub>](https://github.com/jnovais1) |
+| --- | --- | --- | --- |
 
-**FRONT-END**
+### UX/UI
+
+|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/15455090?v=4" width=115><br><sub>Juan Souza</sub>](https://github.com/kyobeta/) |
+| --- | --- |
+
+### Front-end
 
 |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) |
-| :---: |
+| --- |
 
-**BACK-END**
+### Back-end
 
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/556695?v=4" width=115><br><sub>Leonardo Silveira</sub>](https://github.com/sombriks) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89038897?v=4" width=115><br><sub>Júlia Paschoalinoto</sub>](https://github.com/Juliapixel) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) |
-| :---: | :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/556695?v=4" width=115><br><sub>Leonardo Silveira</sub>](https://github.com/sombriks) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89038897?v=4" width=115><br><sub>Júlia Paschoalinoto</sub>](https://github.com/Juliapixel) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) |
+|---|---|---|---|
 
+### ADMs
 
-
-**ADMs**
-
-|[<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/15455090?v=4" width=115><br><sub>Juan Souza</sub>](https://github.com/kyobeta/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) |
-| :---: | :---: | :---: |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/107313013?v=4" width="115"><br><sub>Rafael Blauwer</sub>](https://github.com/Blauwer) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123035444?v=4" width="115"><br><sub>Lucas Figueiredo</sub>](https://github.com/LucasFigueiredoDEV) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146794611?v=4" width="115"><br><sub>Leidilena Leal</sub>](https://github.com/LEIDILENA) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width="115"><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) |
+|---|---|---|---|
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/15455090?v=4" width="115"><br><sub>Juan Souza</sub>](https://github.com/kyobeta/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width="115"><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/26445736?v=4" width="115"><br><sub>Berg</sub>](https://github.com/wlidemberg) |
 
 ## 📄 licença
 
@@ -110,5 +123,3 @@ Mais detalhes sobre a licença, [clique aqui](https://github.com/estacio-alunos/
 Versão não finalizada do diagrama de caso de uso para usuários:
 
 ![0.0.1-useCase.png](docs/0.0.1-useCase.png)
-
-seção _em construção_
