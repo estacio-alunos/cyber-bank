@@ -1,7 +1,6 @@
 ﻿![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![GitHub Org's stars](https://img.shields.io/github/stars/cyber-bank?style=social)
-
-[Logo Cyber Bank](https://github.com/estacio-alunos/cyber-bank/tree/main/service/static/setup/img/logo-cyber-bank.jpeg)
+ 
+![Cyber-bank](https://github.com/estacio-alunos/cyber-bank/blob/main/service/static/setup/img/logo-cyber-bank.jpeg)
 
 ## 👁️‍🗨️ Visão geral
 
