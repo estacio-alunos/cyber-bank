@@ -2,14 +2,17 @@ import pytest
 
 from rest_framework.test import APIClient
 from django.contrib.auth.models import User
-from rest_framework_simplejwt.tokens import RefreshToken
+
+
+@pytest.fixture
+def user_default():
+    user = User.objects.create_user(username='admin', password='carlos')
+    return user
 
 
 @pytest.mark.django_db
-def test_create_cep():
+def test_create_cep(user_default):
     client = APIClient()
-
-    user = User.objects.create_user(username='admin', password='carlos')
 
     response = client.post('/api/token/', data={
         'username': 'admin',
