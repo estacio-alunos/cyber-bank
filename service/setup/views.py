@@ -1,6 +1,18 @@
-import json
-from django.http.response import HttpResponse
+from django.http import JsonResponse
+from django.views.decorators.http import require_GET, require_POST, require_http_methods
 
 
-def hello(http: any):
-    return HttpResponse(json.dumps({'context': 'Hello World!'}), content_type="application/json")
+@require_POST
+def post(request) -> JsonResponse:
+    return JsonResponse(data={'message': 'POST'}, status=201)
+
+
+@require_GET
+def get(request) -> JsonResponse:
+    data = {'message': 'GET'}
+    return JsonResponse(data=data, status=200)
+
+
+@require_http_methods(['GET', 'POST'])
+def post_get(request) -> JsonResponse:
+    return JsonResponse(data={'message': 'GET ou POST'}, status=200)
