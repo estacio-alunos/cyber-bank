@@ -7,15 +7,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+if not os.getenv("DJANGO_ENV") == 'prod':
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings.development')
+else:
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings.production')
+
+
 def main():
     """Run administrative tasks."""
-    # os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings')
-    if os.getenv('DJANGO_ENV') == 'dev':
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings.development')
-    elif os.getenv('DJANGO_ENG') == 'test':
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings.test')
-    elif os.getenv('DJANGO_ENG') == 'prod':
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings.production')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cyberbank.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
