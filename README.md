@@ -97,6 +97,7 @@ Dado um número de versão, de acordo com [semver](https://semver.org/lang/pt-BR
 
 |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/126415306?v=4" width=115><br><sub>Jhonatan Sousa</sub>](https://github.com/Jhonatansousa/) |
 | --- |
+https://github.com/
 
 ### Back-end
 
