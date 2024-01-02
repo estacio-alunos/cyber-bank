@@ -1,5 +1,5 @@
 ﻿![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
- 
+
 ![Cyber-bank](https://github.com/estacio-alunos/cyber-bank/blob/main/service/static/setup/img/logo-cyber-bank.jpeg)
 
 ## 👁️‍🗨️ Visão geral
@@ -100,8 +100,8 @@ Dado um número de versão, de acordo com [semver](https://semver.org/lang/pt-BR
 
 ### Back-end
 
-| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/556695?v=4" width=115><br><sub>Leonardo Silveira</sub>](https://github.com/sombriks) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/89038897?v=4" width=115><br><sub>Júlia Paschoalinoto</sub>](https://github.com/Juliapixel) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) |
-|---|---|---|---|
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/556695?v=4" width=115><br><sub>Leonardo Silveira</sub>](https://github.com/sombriks) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/69335370?s=400&u=ee449d16c46357fa7f6be1a57dea8e8cb4114e79&v=4" width=115><br><sub>Miguel Tenório</sub>](https://github.com/MiguelHCJS) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/20567649?v=4" width=115><br><sub>Carlos Eduardo</sub>](https://github.com/dossantoscarlos) |
+|---|---|---|
 
 ### ADMs
 
